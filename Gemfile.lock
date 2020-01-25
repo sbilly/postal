@@ -202,8 +202,7 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
-    secure_headers (3.4.1)
-      useragent
+    secure_headers (6.3.0)
     sentry-raven (2.1.0)
       faraday (>= 0.7.6, < 0.10.x)
     sprockets (3.7.1)
@@ -223,7 +222,6 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.0.2)
       execjs (>= 0.3.0, < 3)
-    useragent (0.16.8)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
@@ -269,10 +267,10 @@ DEPENDENCIES
   rspec
   rspec-rails
   sass-rails (~> 5.0)
-  secure_headers
+  secure_headers (>= 3.9.0)
   sentry-raven
   turbolinks (~> 5)
   uglifier (>= 1.3.0)
 
 BUNDLED WITH
-   1.14.6
+   1.17.3
