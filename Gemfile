@@ -2,10 +2,10 @@ source 'https://rubygems.org'
 gem 'rails', '= 5.0.2'
 gem 'mysql2', '>= 0.3.18', '< 0.5'
 gem 'puma', '~> 3.0'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.6'
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.2'
-gem 'jquery-rails'
+gem 'coffee-rails', '~> 4.2', '>= 4.2.1'
+gem 'jquery-rails', '>= 4.2.1'
 gem 'turbolinks', '~> 5'
 gem 'haml'
 gem 'nifty-utils'
@@ -40,9 +40,9 @@ group :development, :test do
 end
 
 group :development do
-  gem 'annotate'
+  gem 'annotate', '>= 2.7.2'
   gem 'rspec'
-  gem 'rspec-rails'
-  gem "factory_girl_rails", "~> 4.0"
+  gem 'rspec-rails', '>= 3.5.2'
+  gem "factory_girl_rails", "~> 4.8", ">= 4.8.0"
   gem "database_cleaner"
 end
