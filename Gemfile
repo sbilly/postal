@@ -28,10 +28,10 @@ gem 'encrypto_signo'
 gem 'nio4r'
 gem 'mongo'
 gem 'sentry-raven'
-gem 'gelf'
+gem 'gelf', '>= 3.0.0'
 gem 'moonrope', :git => 'https://github.com/adamcooke/moonrope', :branch => 'master'
 gem 'jwt'
-gem 'createsend', '~> 4.0'
+gem 'createsend', '~> 4.1', '>= 4.1.1'
 gem 'acme-client', :git => 'https://github.com/unixcharles/acme-client'
 gem 'highline', :require => true
 
