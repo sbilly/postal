@@ -1,11 +1,11 @@
 GIT
   remote: https://github.com/adamcooke/moonrope
-  revision: f56a37b8f12186be5e25f14b22bb9100c50df60f
+  revision: e1457fe4927512f815312253b2ea5d8353d58fe3
   branch: master
   specs:
-    moonrope (2.0.0)
+    moonrope (2.0.3)
       deep_merge (~> 1.0)
-      json (~> 1.7)
+      json
       rack (>= 1.4)
 
 GIT
@@ -89,7 +89,7 @@ GEM
       httparty (~> 0.10)
       json (~> 1.0)
     database_cleaner (1.5.3)
-    deep_merge (1.1.1)
+    deep_merge (1.2.1)
     diff-lcs (1.3)
     dynamic_form (1.1.4)
     encrypto_signo (1.0.0)
@@ -147,7 +147,7 @@ GEM
     nokogiri (1.7.2)
       mini_portile2 (~> 2.1.0)
     puma (3.8.2)
-    rack (2.0.1)
+    rack (2.2.3)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (5.0.2)
@@ -275,4 +275,4 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
 
 BUNDLED WITH
-   1.14.6
+   1.17.3
